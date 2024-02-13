@@ -16,8 +16,10 @@ header img {
 }
 
 .menu a:hover {
-  color: #0065FC
+  color: #0065FC;
 }
+
+
 
 /****** Search Bar ***********/
 
@@ -28,6 +30,8 @@ header img {
 .search-bar {
   display: flex;
   height: 49px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .vector {
@@ -53,7 +57,7 @@ input {
 
 input::placeholder {
   color: black;
-  
+
 }
 
 .button {
@@ -64,6 +68,34 @@ input::placeholder {
   border-width: 0;
   width: 10%;
 
+}
+
+/****** Filter ***********/
+
+.filter p {
+  font-weight: 700;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.list-filter {
+  display: flex;
+  gap: 15px;
+}
+
+.filtre-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: solid 3px #F2F2F2;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 700;
 }
 
 /****** General ***********/
