@@ -190,7 +190,6 @@ input::placeholder {
 /****** General ***********/
 
 
-
 * {
   font-family: 'Raleway', sans-serif;
 }
@@ -327,7 +326,59 @@ a {
 }
 
 
+/****** Activités ***********/
 
+.activites-title {
+  margin-bottom: 55px;
+  margin-top: 55px;
+}
+
+.all-activites-card {
+  display: flex;
+  flex-direction: row;
+  gap: 43px;
+  margin-bottom: 40px;
+}
+
+.activites-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px #F2F2F2;
+}
+
+.description {
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.img-activites-card {
+  height: 390px;
+}
+
+.img-activites-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: -20px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+/****** Footer ***********/
+
+.footer {
+  display: flex;
+  gap: 275px;
+  background-color: #F2F2F2;
+  padding: 20px 0px 20px 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
