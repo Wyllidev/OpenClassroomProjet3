@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 
@@ -581,6 +582,7 @@ a {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-bottom: 15px;
   }
 
   .card-marseille {
@@ -622,6 +624,14 @@ a {
 
   .img-activites-card {
     height: 134px;
+  }
+
+  .footer {
+    flex-wrap: wrap;
+  }
+
+  .description h3 {
+    font-size: 15px;
   }
 
 
