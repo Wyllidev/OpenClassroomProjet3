@@ -35,7 +35,6 @@ header img {
   top: -15px;
   right: 50%;
   transform: translate(50%, 0px);
-
 }
 
 .menu a {
@@ -46,6 +45,10 @@ header img {
 
 .info-group {
   margin-top: 63px;
+}
+
+.info-group h1 {
+  font-size: 26px;
 }
 
 .headline {
@@ -61,6 +64,11 @@ header img {
   margin-top: 30px;
 }
 
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
 
 .vector {
   background: #F2F2F2;
@@ -79,7 +87,7 @@ input {
   font-weight: bold;
   padding: 0px 24px;
   border: solid 2px #F2F2F2;
-  width: 15%;
+  width: 18%;
   font-weight: bold;
 }
 
@@ -152,12 +160,9 @@ input::placeholder {
   width: 24px;
   height: 24px;
   font-size: 12px;
-
 }
 
 /****** Hébergement à Marseille ***********/
-
-
 
 .card-marseille {
   display: flex;
@@ -166,7 +171,6 @@ input::placeholder {
   border-radius: 20px;
   width: 100%;
   padding: 5px;
-
 }
 
 .img-box {
@@ -180,8 +184,6 @@ input::placeholder {
   width: 100%;
   object-fit: cover;
   height: 100%;
-
-
 }
 
 .card-text {
@@ -191,7 +193,6 @@ input::placeholder {
   gap: 8px;
   margin-top: 12px;
 }
-
 
 .hebergements-marseille-description {
   display: flex;
@@ -286,6 +287,7 @@ a {
 }
 
 /****** Hebergements ***********/
+
 .hebergements {
   width: 65%;
   display: flex;
@@ -375,6 +377,7 @@ a {
 .description {
   display: flex;
   padding: 0px 19px 20px 19px;
+  margin-top: 20px;
 }
 
 .description h3 {
@@ -389,7 +392,6 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  margin-top: -20px;
   border-radius: 20px 20px 0px 0px;
 }
 
@@ -614,6 +616,7 @@ a {
 
   .activites-Marseille {
     width: 100%;
+    padding: 0px;
   }
 
   .all-activites-card {
@@ -621,9 +624,8 @@ a {
     flex-direction: column;
   }
 
-  .activites-card {
-    width: 90%;
-    height: 170px;
+  .all-activites-card a {
+    width: 100%;
   }
 
   .img-activites-card {
@@ -633,6 +635,7 @@ a {
   .footer {
     flex-wrap: wrap;
     flex-direction: column;
+    margin: 0px -25px;
   }
 
   .description h3 {
