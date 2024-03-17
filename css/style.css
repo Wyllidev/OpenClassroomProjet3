@@ -472,12 +472,9 @@ a {
     font-size: 13px;
   }
 
-
-
   .description {
     display: flex;
     align-items: center;
-
   }
 
   .description h3 {
@@ -655,7 +652,5 @@ a {
   .afficher-plus {
     background-color: #FFFF;
   }
-
-
 
 }
